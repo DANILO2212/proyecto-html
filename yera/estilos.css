@@ -1,0 +1,191 @@
+ 
+section{
+    display: flex;
+    width: 1350px;
+    height: 550px;
+}
+
+nav > a > #logoprincipal{
+    border-radius: 50%;
+}
+
+#encabezado{
+  background-color: rgb(25, 65, 145);
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  z-index: 1000; 
+}
+nav > a > #gtologo{
+    filter: drop-shadow(1px 1px 20px white);
+}
+#img1{
+    background-image: url(mineras.jpg);
+    background-size: cover;
+}
+#img1 > h2{
+    margin-left: 60px;
+    width: 200px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    transition: .5s ease;
+}
+#img1 > h6{
+    margin-left: 60px;
+    width: 500px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    display: none;
+}
+
+
+#img2{
+    background-image: url(cacahuate.jpg);
+    background-size: cover;
+}
+#img2 > h2{
+    margin-left: 60px;
+    width: 200px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    transition: .5s ease;
+}
+#img2 > h6{
+    margin-left: 60px;
+    width: 500px;
+    background-color:  rgba(33, 37, 41, 0.5);
+    color: white;
+    display: none;
+}
+
+
+#img3{
+    background-image: url(oso.jpg);
+    background-size: cover;
+}
+#img3 > h2{
+    margin-left: 60px;
+    width: 200px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    transition: .5s ease;
+}
+#img3 > h6{
+    margin-left: 60px;
+    width: 500px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    display: none;
+}
+
+
+#img4{
+    background-image: url(guacamayas.jpg);
+    background-size: cover;
+}
+#img4 > h2{
+    margin-left: 60px;
+    width: 200px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    transition: .5s ease;
+}
+#img4 > h6{
+    margin-left: 60px;
+    width: 500px;
+    background-color: rgba(33, 37, 41, 0.5);
+    color: white;
+    display: none;
+}
+
+
+#img1, #img2, #img3, #img4{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#img1:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+} 
+#img1:hover > h2{
+    margin-left: 200px;
+}
+#img1:hover > h6{
+    display: block;
+}
+
+
+#img2:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+#img2:hover > h2{
+    margin-left: 200px;
+}
+#img2:hover > h6{
+    display: block;
+}
+
+
+#img3:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+#img3:hover > h2{
+    margin-left: 200px;
+}
+#img3:hover > h6{
+    display: block;
+}
+
+
+#img4:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+} 
+#img4:hover > h2{
+    margin-left: 200px;
+}
+#img4:hover > h6{
+    display: block;
+}
+
+.general{
+    height: 600px;
+    width: 100%;
+    color: rgb(15, 15, 15);
+    background-image: url(descarga.jpg);
+    background-size: 100%;
+}
+.general > div > div > #descripcion{
+    margin-top: 200px;
+    border-radius: 5%;
+    background-color: rgba(33, 37, 41, 0.733);
+}
+
+#gto{
+    margin-top: 200px;
+    filter: drop-shadow(1px 1px 50px rgb(25, 65, 145));
+    transition: 0.5s ease;
+}
+
+#gto:hover{
+    transform: scale(1.2);
+}
+
+footer > div > div > div > p > #logozzz{
+    border-radius: 50%;
+}
+
