@@ -20,7 +20,7 @@ nav > a > #gtologo{
     filter: drop-shadow(1px 1px 20px white);
 }
 #img1{
-    background-image: url(mineras.jpg);
+    background-image: url(images/mineras.jpg);
     background-size: cover;
 }
 #img1 > h2{
@@ -40,7 +40,7 @@ nav > a > #gtologo{
 
 
 #img2{
-    background-image: url(cacahuate.jpg);
+    background-image: url(images/cacahuate.jpg);
     background-size: cover;
 }
 #img2 > h2{
@@ -60,7 +60,7 @@ nav > a > #gtologo{
 
 
 #img3{
-    background-image: url(oso.jpg);
+    background-image: url(images/oso.jpg);
     background-size: cover;
 }
 #img3 > h2{
@@ -80,7 +80,7 @@ nav > a > #gtologo{
 
 
 #img4{
-    background-image: url(guacamayas.jpg);
+    background-image: url(images/guacamayas.jpg);
     background-size: cover;
 }
 #img4 > h2{
@@ -166,7 +166,7 @@ nav > a > #gtologo{
     height: 600px;
     width: 100%;
     color: rgb(15, 15, 15);
-    background-image: url(descarga.jpg);
+    background-image: url(images/descarga.jpg);
     background-size: 100%;
 }
 .general > div > div > #descripcion{
